@@ -9,14 +9,43 @@ import SwiftUI
 
 struct QuizView: View {
     @ObservedObject var quizManager: QuizManager
+    @State private var showingQuitAlert = false
 
     var body: some View {
         VStack(spacing: 30) {
             if let currentQuestion = quizManager.currentQuestion {
-                // Question counter
-                Text("Question \(quizManager.currentQuestionIndex + 1) of \(quizManager.questions.count)")
-                    .font(.headline)
-                    .foregroundColor(.secondary)
+                // Header with quit button and question counter
+                HStack {
+                    // Quit button
+                    Button(action: {
+                        showingQuitAlert = true
+                    }) {
+                        HStack(spacing: 5) {
+                            Image(systemName: "chevron.left")
+                            Text("Quit")
+                        }
+                        .font(.body)
+                        .foregroundColor(.blue)
+                    }
+
+                    Spacer()
+
+                    // Question counter
+                    Text("Question \(quizManager.currentQuestionIndex + 1) of \(quizManager.questions.count)")
+                        .font(.headline)
+                        .foregroundColor(.secondary)
+
+                    Spacer()
+
+                    // Invisible placeholder for balance
+                    HStack(spacing: 5) {
+                        Image(systemName: "chevron.left")
+                        Text("Quit")
+                    }
+                    .font(.body)
+                    .opacity(0)
+                }
+                .padding(.horizontal)
 
                 Spacer()
 
@@ -95,6 +124,15 @@ struct QuizView: View {
         }
         .padding()
         .animation(.easeInOut, value: quizManager.selectedAnswerIndex)
+        .alert("Quit Quiz?", isPresented: $showingQuitAlert) {
+            Button("Cancel", role: .cancel) { }
+            Button("Quit and Save", role: .destructive) {
+                // Just return to start screen, progress is already saved
+                quizManager.quizStarted = false
+            }
+        } message: {
+            Text("Your progress will be saved and you can resume later from the start screen.")
+        }
     }
 }
 

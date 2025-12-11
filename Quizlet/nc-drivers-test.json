@@ -105,7 +105,7 @@
       "Neither A nor B."
     ],
     "correctAnswerIndex": 0
-    "explanation": ""
+    "explanation": "A driver can be blinded by the headlights of oncoming vehicles"
   },
   {
     "id": "NC-010",
@@ -116,8 +116,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1
+    "explanation": "Hold the steering wheel tightly and try to keep the vehicle straight. Do not apply the brakes until the engine has slowed the vehicle enough to maintain control."
   },
   {
     "id": "NC-011",
@@ -128,8 +128,8 @@
       "Stay in the center of the lane.",
       "Move to the outside of the curve."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3
+    "explanation": "Due to centrifugal force, vehicles naturally tend toward the outside of curves. The handbook instructs drivers to "stay on your side of the road and drive as far to the right as you can" when rounding curves to counteract this tendency."
   },
   {
     "id": "NC-012",
@@ -140,8 +140,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1
+    "explanation": "The law gives a blind pedestrian special consideration at an intersection where there are no traffic signals when the pedestrian extends a white cane, or white cane with red tip or has guide dog."
   },
   {
     "id": "NC-013",
@@ -152,8 +152,8 @@
       "Raise the hood and tie a white handkerchief to the left door handle.",
       "Raise the hood and stand behind the car so drivers of oncoming cars can see you."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2
+    "explanation": "Make sure you leave the vehicle by the passenger side, and do not allow passengers to remain in the vehicle. Stand off the road and away from the vehicle. If you need help, tie a white cloth to left door handle or radio aerial and raise the hood."
   },
   {
     "id": "NC-014",
@@ -165,7 +165,7 @@
       "Car D."
     ],
     "correctAnswerIndex": 0
-    "explanation": ""
+    "explanation": "At intersections, the vehicle already in the intersection has the right of way ahead of any vehicle that has not yet entered. Since Car B is ahead of Car A in the same lane, Car A must yield to Car B before entering the intersection."
   },
   {
     "id": "NC-015",
@@ -177,7 +177,7 @@
       "Neither A nor B."
     ],
     "correctAnswerIndex": 0
-    "explanation": ""
+    "explanation": "Back very slowly, not more than 10 mph — your vehicle is harder to control and stop when backing."
   },
   {
     "id": "NC-016",
@@ -188,8 +188,8 @@
       "Narrow bridges.",
       "Intersections."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3
+    "explanation": "Crashes occur most frequently at intersections, and they are considered the most dangerous places on a street or highway. More than one-third of fatal traffic crashes involving motor vehicles occur at intersections."
   },
   {
     "id": "NC-017",
@@ -197,11 +197,11 @@
     "choices": [
       "10%",
       "25%",
-      "50%",
+      "40%",
       "67%"
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2
+    "explanation": "About 38 percent of all traffic fatalities involve alcohol."
   },
   {
     "id": "NC-018",
@@ -213,7 +213,7 @@
       "Neither A nor B."
     ],
     "correctAnswerIndex": 0
-    "explanation": ""
+    "explanation": "Ride right, with the traffic, NOT facing traffic. Bicyclists must ride WITH traffic flow, not against it. Statement B is correct given bicycles' vulnerability in collisions with vehicles."
   },
   {
     "id": "NC-019",
@@ -224,8 +224,8 @@
       "At intersections.",
       "On bridges."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2
+    "explanation": "Crashes occur most frequently at intersections, and they are considered the most dangerous places on a street or highway. More than one-third of fatal traffic crashes involving motor vehicles occur at intersections."
   },
   {
     "id": "NC-020",
@@ -236,8 +236,8 @@
       "Going downhill.",
       "Following another car."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3
+    "explanation": "Use high-beam headlights unless you are approaching or following another vehicle and dim them when within 500ft of an oncoming vehicle or when 200ft or less behind a vehicle travelling in your direction."
   },
   {
     "id": "NC-021",
@@ -248,8 +248,8 @@
       "Yield the right-of-way.",
       "Slow down and drive with care."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3
+    "explanation": "Diamond-shaped signs are caution or warning signs. When you see one of these signs, drive with extra care. These are warning signs requiring increased caution, not stop/yield/no-turn signs."
   },
   {
     "id": "NC-022",
@@ -261,7 +261,7 @@
       "Neither A nor B."
     ],
     "correctAnswerIndex": 0
-    "explanation": ""
+    "explanation": "Outside cities and towns: 55. Unless otherwise posted, the speed limit is 35 mph in cities and towns."
   },
   {
     "id": "NC-023",
@@ -272,8 +272,8 @@
       "Keep your eyes on the center of the road straight ahead.",
       "Spend as much time looking in your mirrors as you do looking in front of you."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1
+    "explanation": "Good drivers try to see 10 to 15 seconds ahead on the roadway."
   },
   {
     "id": "NC-024",
@@ -284,8 +284,8 @@
       "Yes, if you drink it black and without sugar.",
       "Yes, if you can take a cold shower."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1
+    "explanation": "The only thing that sobers up a drinker is time. Coffee, a big meal or cold showers will not work."
   },
   {
     "id": "NC-025",
@@ -296,8 +296,8 @@
       "Slow down and sound your horn to warn drivers who cannot see you.",
       "Stop at the intersection and move forward slowly."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3
+    "explanation": "At unmarked intersections where it is hard to see in all directions, stop and then move forward slowly and cautiously."
   },
   {
     "id": "NC-026",

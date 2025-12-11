@@ -12,6 +12,22 @@ struct StartView: View {
 
     var body: some View {
         VStack(spacing: 30) {
+            // Header with history button
+            HStack {
+                Spacer()
+                Button(action: {
+                    quizManager.showHistory()
+                }) {
+                    HStack(spacing: 5) {
+                        Image(systemName: "chart.bar.fill")
+                        Text("History")
+                    }
+                    .font(.body)
+                    .foregroundColor(.blue)
+                }
+            }
+            .padding(.horizontal)
+
             Spacer()
 
             // App icon or logo
@@ -41,17 +57,53 @@ struct StartView: View {
 
             Spacer()
 
-            // Start button
-            Button(action: {
-                quizManager.startQuiz()
-            }) {
-                Text("Start Quiz")
+            // Buttons
+            VStack(spacing: 15) {
+                // Resume button (only shown if there's saved progress)
+                if quizManager.hasSavedProgress {
+                    Button(action: {
+                        quizManager.resumeQuiz()
+                    }) {
+                        HStack {
+                            Image(systemName: "play.circle.fill")
+                            Text("Resume Quiz")
+                        }
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity)
+                        .padding()
+                        .background(Color.green)
+                        .cornerRadius(10)
+                    }
+
+                    // Progress info
+                    if let progress = quizManager.savedProgressInfo {
+                        VStack(spacing: 5) {
+                            Text("Question \(progress.currentQuestion) of \(progress.totalQuestions)")
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                            Text("Current Score: \(progress.score)")
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                }
+
+                // Start new quiz button
+                Button(action: {
+                    quizManager.startQuiz()
+                }) {
+                    HStack {
+                        Image(systemName: "arrow.clockwise.circle.fill")
+                        Text(quizManager.hasSavedProgress ? "Start New Quiz" : "Start Quiz")
+                    }
                     .font(.headline)
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)
                     .padding()
                     .background(Color.blue)
                     .cornerRadius(10)
+                }
             }
             .padding(.horizontal)
 

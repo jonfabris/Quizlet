@@ -14,18 +14,22 @@ class QuizManager: ObservableObject {
     @Published var selectedAnswerIndex: Int? = nil
     @Published var showingResults: Bool = false
     @Published var quizStarted: Bool = false
+    @Published var quizHistory: [QuizResult] = []
+    @Published var showingHistory: Bool = false
 
     private let defaults = UserDefaults.standard
     private let questionIDsKey = "savedQuestionIDs"
     private let currentIndexKey = "savedCurrentIndex"
     private let scoreKey = "savedScore"
     private let quizStartedKey = "savedQuizStarted"
+    private let historyKey = "quizHistory"
 
     private var allQuestions: [Question] = []
 
     init() {
         loadAllQuestions()
-        restoreProgress()
+        loadQuizHistory()
+        // Don't automatically restore - let user choose to resume or start new
     }
 
     private func loadAllQuestions() {
@@ -91,6 +95,26 @@ class QuizManager: ObservableObject {
         defaults.removeObject(forKey: quizStartedKey)
     }
 
+    private func loadQuizHistory() {
+        if let data = defaults.data(forKey: historyKey),
+           let history = try? JSONDecoder().decode([QuizResult].self, from: data) {
+            quizHistory = history.sorted { $0.date > $1.date }
+        }
+    }
+
+    private func saveQuizResult() {
+        let result = QuizResult(
+            date: Date(),
+            score: score,
+            totalQuestions: questions.count
+        )
+        quizHistory.insert(result, at: 0) // Add to beginning for newest first
+
+        if let encoded = try? JSONEncoder().encode(quizHistory) {
+            defaults.set(encoded, forKey: historyKey)
+        }
+    }
+
     var currentQuestion: Question? {
         guard currentQuestionIndex < questions.count else { return nil }
         return questions[currentQuestionIndex]
@@ -100,6 +124,32 @@ class QuizManager: ObservableObject {
         guard let selectedAnswerIndex = selectedAnswerIndex,
               let currentQuestion = currentQuestion else { return false }
         return selectedAnswerIndex == currentQuestion.correctAnswerIndex
+    }
+
+    var hasSavedProgress: Bool {
+        // Check if there's an unfinished quiz saved
+        let savedQuizStarted = defaults.bool(forKey: quizStartedKey)
+        if savedQuizStarted, let savedIDs = defaults.array(forKey: questionIDsKey) as? [String] {
+            let savedIndex = defaults.integer(forKey: currentIndexKey)
+            // Has saved progress if quiz is started and not completed
+            return savedIndex < savedIDs.count
+        }
+        return false
+    }
+
+    var savedProgressInfo: (currentQuestion: Int, totalQuestions: Int, score: Int)? {
+        guard hasSavedProgress else { return nil }
+        if let savedIDs = defaults.array(forKey: questionIDsKey) as? [String] {
+            let savedIndex = defaults.integer(forKey: currentIndexKey)
+            let savedScore = defaults.integer(forKey: scoreKey)
+            return (savedIndex + 1, savedIDs.count, savedScore)
+        }
+        return nil
+    }
+
+    func resumeQuiz() {
+        // Simply restore the saved state
+        restoreProgress()
     }
 
     func startQuiz() {
@@ -128,7 +178,8 @@ class QuizManager: ObservableObject {
 
         if currentQuestionIndex >= questions.count {
             showingResults = true
-            saveProgress()
+            saveQuizResult() // Save the completed quiz to history
+            clearProgress() // Clear in-progress data since quiz is complete
         }
     }
 
@@ -145,5 +196,13 @@ class QuizManager: ObservableObject {
         selectedAnswerIndex = nil
         showingResults = false
         quizStarted = false
+    }
+
+    func showHistory() {
+        showingHistory = true
+    }
+
+    func hideHistory() {
+        showingHistory = false
     }
 }

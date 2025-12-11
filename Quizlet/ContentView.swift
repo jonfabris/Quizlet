@@ -11,7 +11,9 @@ struct ContentView: View {
     @StateObject private var quizManager = QuizManager()
 
     var body: some View {
-        if !quizManager.quizStarted {
+        if quizManager.showingHistory {
+            HistoryView(quizManager: quizManager)
+        } else if !quizManager.quizStarted {
             StartView(quizManager: quizManager)
         } else if quizManager.showingResults {
             ResultsView(quizManager: quizManager)
