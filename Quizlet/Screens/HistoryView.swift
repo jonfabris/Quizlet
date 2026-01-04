@@ -212,7 +212,7 @@ struct QuizResultRow: View {
 }
 
 #Preview {
-    let manager = QuizManager()
+    let manager = QuizManager.shared
     manager.quizHistory = [
         QuizResult(date: Date(), score: 85, totalQuestions: 100),
         QuizResult(date: Date().addingTimeInterval(-86400), score: 72, totalQuestions: 100),

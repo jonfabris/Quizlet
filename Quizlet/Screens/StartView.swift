@@ -36,12 +36,12 @@ struct StartView: View {
                 .foregroundColor(.blue)
 
             // Title
-            Text("NC Driver's Test")
+            Text("NC Road Quiz")
                 .font(.largeTitle)
                 .fontWeight(.bold)
 
             // Subtitle
-            Text("134 Practice Questions")
+            Text("\(quizManager.totalQuestionCount) Practice Questions")
                 .font(.title3)
                 .foregroundColor(.secondary)
 
@@ -130,5 +130,5 @@ struct InfoRow: View {
 }
 
 #Preview {
-    StartView(quizManager: QuizManager())
+    StartView(quizManager: QuizManager.shared)
 }

@@ -9,10 +9,22 @@ import SwiftUI
 
 struct QuizConfigView: View {
     @ObservedObject var quizManager: QuizManager
-    @State private var selectedQuestionCount: Double = 134
+    @State private var selectedQuestionCount: Double
 
-    private let minQuestions = 10
-    private let maxQuestions = 134
+    private var minQuestions : Int {
+        if quizManager.totalQuestionCount > 10 {
+            return 10
+        } else {
+            return quizManager.totalQuestionCount
+        }
+    }
+    
+    init(quizManager: QuizManager) {
+        self.quizManager = quizManager
+        _selectedQuestionCount = State(initialValue: Double(quizManager.totalQuestionCount))
+        print(selectedQuestionCount)
+        print(quizManager.totalQuestionCount)
+    }
 
     var body: some View {
         VStack(spacing: 30) {
@@ -60,7 +72,7 @@ struct QuizConfigView: View {
                     Text("Total Questions Available:")
                         .font(.body)
                     Spacer()
-                    Text("\(maxQuestions)")
+                    Text("\(quizManager.totalQuestionCount)")
                         .font(.headline)
                         .foregroundColor(.blue)
                 }
@@ -82,7 +94,7 @@ struct QuizConfigView: View {
 
                     Slider(
                         value: $selectedQuestionCount,
-                        in: Double(minQuestions)...Double(maxQuestions),
+                        in: Double(minQuestions)...Double(quizManager.totalQuestionCount),
                         step: 1
                     )
                     .accentColor(.blue)
@@ -92,7 +104,7 @@ struct QuizConfigView: View {
                             .font(.caption)
                             .foregroundColor(.secondary)
                         Spacer()
-                        Text("\(maxQuestions)")
+                        Text("\(quizManager.totalQuestionCount)")
                             .font(.caption)
                             .foregroundColor(.secondary)
                     }
@@ -129,5 +141,5 @@ struct QuizConfigView: View {
 }
 
 #Preview {
-    QuizConfigView(quizManager: QuizManager())
+    QuizConfigView(quizManager: QuizManager.shared)
 }

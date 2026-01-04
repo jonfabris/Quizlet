@@ -44,7 +44,7 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 0,
     "explanation": "A 4th DWI conviction (with prior convictions within 7 years) results in felony charges with 1-3 years imprisonment and permanent license revocation—not a restricted license."
   },
   {
@@ -80,7 +80,7 @@
       "Mud guards.",
       "Shoulder harnesses."
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 0,
     "explanation": "Every motor vehicle must have a muffler or exhaust system in good working order to prevent excessive noise and smoke."
   },
   {
@@ -92,7 +92,7 @@
       "If two persons drink at the same speed, the heavier person will need longer to reach the same blood alcohol concentration.",
       "A heavier person needs to drink more than a lighter person because alcohol mixes with the body fluids. Obviously, a heavier person has more body fluids than a lighter person."
     ],
-    "correctAnswerIndex": 1
+    "correctAnswerIndex": 1,
     "explanation": "Alcohol elimination occurs at a constant rate (about 0.015% BAC per hour) regardless of body weight. The liver processes alcohol at the same rate for everyone. Time is the only thing that sobers up a drinker."
   },
   {
@@ -104,7 +104,7 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 0,
     "explanation": "A driver can be blinded by the headlights of oncoming vehicles"
   },
   {
@@ -116,7 +116,7 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 1
+    "correctAnswerIndex": 1,
     "explanation": "Hold the steering wheel tightly and try to keep the vehicle straight. Do not apply the brakes until the engine has slowed the vehicle enough to maintain control."
   },
   {
@@ -128,8 +128,8 @@
       "Stay in the center of the lane.",
       "Move to the outside of the curve."
     ],
-    "correctAnswerIndex": 3
-    "explanation": "Due to centrifugal force, vehicles naturally tend toward the outside of curves. The handbook instructs drivers to "stay on your side of the road and drive as far to the right as you can" when rounding curves to counteract this tendency."
+    "correctAnswerIndex": 3,
+    "explanation": "Due to centrifugal force, vehicles naturally tend toward the outside of curves. The handbook instructs drivers to 'stay on your side of the road and drive as far to the right as you can' when rounding curves to counteract this tendency."
   },
   {
     "id": "NC-012",
@@ -140,7 +140,7 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 1
+    "correctAnswerIndex": 1,
     "explanation": "The law gives a blind pedestrian special consideration at an intersection where there are no traffic signals when the pedestrian extends a white cane, or white cane with red tip or has guide dog."
   },
   {
@@ -152,7 +152,7 @@
       "Raise the hood and tie a white handkerchief to the left door handle.",
       "Raise the hood and stand behind the car so drivers of oncoming cars can see you."
     ],
-    "correctAnswerIndex": 2
+    "correctAnswerIndex": 2,
     "explanation": "Make sure you leave the vehicle by the passenger side, and do not allow passengers to remain in the vehicle. Stand off the road and away from the vehicle. If you need help, tie a white cloth to left door handle or radio aerial and raise the hood."
   },
   {
@@ -164,7 +164,7 @@
       "Car C.",
       "Car D."
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 0,
     "explanation": "At intersections, the vehicle already in the intersection has the right of way ahead of any vehicle that has not yet entered. Since Car B is ahead of Car A in the same lane, Car A must yield to Car B before entering the intersection."
   },
   {
@@ -176,7 +176,7 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 0,
     "explanation": "Back very slowly, not more than 10 mph — your vehicle is harder to control and stop when backing."
   },
   {
@@ -188,7 +188,7 @@
       "Narrow bridges.",
       "Intersections."
     ],
-    "correctAnswerIndex": 3
+    "correctAnswerIndex": 3,
     "explanation": "Crashes occur most frequently at intersections, and they are considered the most dangerous places on a street or highway. More than one-third of fatal traffic crashes involving motor vehicles occur at intersections."
   },
   {
@@ -200,7 +200,7 @@
       "40%",
       "67%"
     ],
-    "correctAnswerIndex": 2
+    "correctAnswerIndex": 2,
     "explanation": "About 38 percent of all traffic fatalities involve alcohol."
   },
   {
@@ -212,7 +212,7 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 0,
     "explanation": "Ride right, with the traffic, NOT facing traffic. Bicyclists must ride WITH traffic flow, not against it. Statement B is correct given bicycles' vulnerability in collisions with vehicles."
   },
   {
@@ -224,7 +224,7 @@
       "At intersections.",
       "On bridges."
     ],
-    "correctAnswerIndex": 2
+    "correctAnswerIndex": 2,
     "explanation": "Crashes occur most frequently at intersections, and they are considered the most dangerous places on a street or highway. More than one-third of fatal traffic crashes involving motor vehicles occur at intersections."
   },
   {
@@ -236,7 +236,7 @@
       "Going downhill.",
       "Following another car."
     ],
-    "correctAnswerIndex": 3
+    "correctAnswerIndex": 3,
     "explanation": "Use high-beam headlights unless you are approaching or following another vehicle and dim them when within 500ft of an oncoming vehicle or when 200ft or less behind a vehicle travelling in your direction."
   },
   {
@@ -248,7 +248,7 @@
       "Yield the right-of-way.",
       "Slow down and drive with care."
     ],
-    "correctAnswerIndex": 3
+    "correctAnswerIndex": 3,
     "explanation": "Diamond-shaped signs are caution or warning signs. When you see one of these signs, drive with extra care. These are warning signs requiring increased caution, not stop/yield/no-turn signs."
   },
   {
@@ -260,7 +260,7 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 0,
     "explanation": "Outside cities and towns: 55. Unless otherwise posted, the speed limit is 35 mph in cities and towns."
   },
   {
@@ -272,7 +272,7 @@
       "Keep your eyes on the center of the road straight ahead.",
       "Spend as much time looking in your mirrors as you do looking in front of you."
     ],
-    "correctAnswerIndex": 1
+    "correctAnswerIndex": 1,
     "explanation": "Good drivers try to see 10 to 15 seconds ahead on the roadway."
   },
   {
@@ -284,7 +284,7 @@
       "Yes, if you drink it black and without sugar.",
       "Yes, if you can take a cold shower."
     ],
-    "correctAnswerIndex": 1
+    "correctAnswerIndex": 1,
     "explanation": "The only thing that sobers up a drinker is time. Coffee, a big meal or cold showers will not work."
   },
   {
@@ -296,7 +296,7 @@
       "Slow down and sound your horn to warn drivers who cannot see you.",
       "Stop at the intersection and move forward slowly."
     ],
-    "correctAnswerIndex": 3
+    "correctAnswerIndex": 3,
     "explanation": "At unmarked intersections where it is hard to see in all directions, stop and then move forward slowly and cautiously."
   },
   {
@@ -308,8 +308,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "The NC Driver Handbook instructs drivers to block the wheels when changing a tire to prevent the vehicle from rolling. The vehicle should not be placed in neutral."
   },
   {
     "id": "NC-027",
@@ -320,8 +320,8 @@
       "35mph",
       "25mph"
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 0,
+    "explanation": "North Carolina law sets the maximum speed limit for a full-size school bus at 55 mph."
   },
   {
     "id": "NC-028",
@@ -332,8 +332,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3,
+    "explanation": "The NC Driver Handbook does not support either statement. Pedestrian fatalities are not predominantly teenagers, and the city statistic given is incorrect."
   },
   {
     "id": "NC-029",
@@ -344,8 +344,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "The handbook advises lightly applying the brakes while driving slowly to generate heat and dry wet brakes."
   },
   {
     "id": "NC-030",
@@ -356,8 +356,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 0,
+    "explanation": "Drivers should always watch for sudden stops in heavy traffic. Pedestrians must be yielded to whether or not a crosswalk is marked."
   },
   {
     "id": "NC-031",
@@ -368,8 +368,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Using a lower gear helps control speed, and staying in the right lane allows faster traffic to pass safely."
   },
   {
     "id": "NC-032",
@@ -380,8 +380,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 0,
+    "explanation": "The handbook advises parking completely off the roadway and using hazard lights, not high beams."
   },
   {
     "id": "NC-033",
@@ -392,8 +392,8 @@
       "After it has been raining for several hours.",
       "In exceptionally cold, dry weather."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "Oil and dust rise to the surface when rain first begins, making roads especially slippery."
   },
   {
     "id": "NC-034",
@@ -404,8 +404,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "U-turns are illegal on interstates. Drivers must proceed to the next exit."
   },
   {
     "id": "NC-035",
@@ -416,8 +416,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3,
+    "explanation": "Drivers should stay close to the right curb when turning right, and a straight arm signals a left turn, not a right turn."
   },
   {
     "id": "NC-036",
@@ -428,8 +428,8 @@
       "May allow dangerous fumes to enter the car.",
       "Makes the engine hard to start and likely to stall."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "A leaking exhaust can allow carbon monoxide and other toxic fumes to enter the passenger compartment."
   },
   {
     "id": "NC-037",
@@ -440,8 +440,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Passing on the right is legal on multi-lane roads and on one-way streets when conditions permit."
   },
   {
     "id": "NC-038",
@@ -452,8 +452,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "The handbook advises easing off the gas and steering in the direction of the skid to regain control."
   },
   {
     "id": "NC-039",
@@ -464,8 +464,8 @@
       "Driving without a license.",
       "Passing a stopped school bus unloading children."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3,
+    "explanation": "Passing a stopped school bus carries the highest point penalty due to the extreme danger involved."
   },
   {
     "id": "NC-040",
@@ -476,8 +476,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 0,
+    "explanation": "Pedestrians should walk facing traffic so they can see approaching vehicles."
   },
   {
     "id": "NC-041",
@@ -488,8 +488,8 @@
       "Have lower than usual air pressure in your tires.",
       "Carry heavy weights in your trunk."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "Snow tires are designed to provide maximum traction on packed snow and icy surfaces."
   },
   {
     "id": "NC-042",
@@ -500,8 +500,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 0,
+    "explanation": "Using a lower gear helps control speed without overheating the brakes."
   },
   {
     "id": "NC-043",
@@ -512,8 +512,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "The handbook advises shifting to a lower gear and carefully applying the emergency brake."
   },
   {
     "id": "NC-044",
@@ -524,8 +524,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "Driving significantly slower than surrounding traffic disrupts flow and increases crash risk."
   },
   {
     "id": "NC-045",
@@ -536,8 +536,8 @@
       "If you eat before drinking, alcohol enters the blood stream at a slower pace.",
       "It neutralizes the effects of alcohol."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Eating before drinking slows the absorption of alcohol into the bloodstream."
   },
   {
     "id": "NC-046",
@@ -548,8 +548,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "At 7 points, both consequences are possible under North Carolina law."
   },
   {
     "id": "NC-047",
@@ -560,8 +560,8 @@
       "Fender lights.",
       "Backup lights."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 0,
+    "explanation": "All vehicles must have a light to illuminate the rear license plate."
   },
   {
     "id": "NC-048",
@@ -572,8 +572,8 @@
       "Both A and B.",
       "Neither A nor B"
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "A left turn signal alerts drivers behind you. Sounding the horn is not recommended."
   },
   {
     "id": "NC-049",
@@ -584,8 +584,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "North Carolina law allows for both vehicle seizure and imprisonment in this situation."
   },
   {
     "id": "NC-050",
@@ -596,8 +596,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Both hazards are common in city driving environments."
   },
   {
     "id": "NC-051",
@@ -608,8 +608,8 @@
       "No, because even smaller amounts can affect judgment.",
       "Yes, if the driver is not too tired."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Even small amounts of alcohol can impair judgment and reaction time."
   },
   {
     "id": "NC-052",
@@ -620,8 +620,8 @@
       "Travels at the posted speed limit.",
       "Maintains his position relative to cars in front and behind him in his lane."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "Driving much slower than traffic flow increases collision risk."
   },
   {
     "id": "NC-053",
@@ -632,8 +632,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Both actions are required or recommended after an accident."
   },
   {
     "id": "NC-054",
@@ -644,8 +644,8 @@
       "Car C, Car A, Car B.",
       "Car B, Car C, Car A."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 0,
+    "explanation": "At uncontrolled intersections, drivers yield to the vehicle on their right."
   },
   {
     "id": "NC-055",
@@ -656,8 +656,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Both situations involve control of a vehicle and require a valid driver license."
   },
   {
     "id": "NC-056",
@@ -668,8 +668,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 0,
+    "explanation": "Approximately half of all traffic fatalities involve alcohol impairment."
   },
   {
     "id": "NC-057",
@@ -680,8 +680,8 @@
       "Four-way flashers.",
       "High-beam headlights."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "The NC Driver Handbook advises using low-beam headlights in snow to improve visibility without causing glare."
   },
   {
     "id": "NC-058",
@@ -692,8 +692,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "A flashing red signal has the same meaning as a stop sign: drivers must stop and then proceed when it is safe."
   },
   {
     "id": "NC-059",
@@ -704,8 +704,8 @@
       "The eyes notice better motions on the sides.",
       "The eyes catch very early other drivers' mistakes."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "Alcohol reduces eye movement and peripheral vision, causing drivers to stare straight ahead."
   },
   {
     "id": "NC-060",
@@ -716,8 +716,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Light rain loosens oil on the road, increasing skid risk, and requires greater following distance."
   },
   {
     "id": "NC-061",
@@ -728,8 +728,8 @@
       "Pedestrian only.",
       "Driver of Car 1 and the pedestrian."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3,
+    "explanation": "Drivers going straight and pedestrians in the crosswalk have the right-of-way over vehicles making left turns."
   },
   {
     "id": "NC-062",
@@ -740,8 +740,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3,
+    "explanation": "You must always obey a police officer directing traffic, even if signals or situations appear conflicting."
   },
   {
     "id": "NC-063",
@@ -752,8 +752,8 @@
       "No, if something happens the doctor will be prosecuted.",
       "No, as long as you do not reach 0.08."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "Drivers are responsible for operating a vehicle safely regardless of whether impairment comes from alcohol or prescription medication."
   },
   {
     "id": "NC-064",
@@ -764,8 +764,8 @@
       "Orange",
       "Green"
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Orange signs are used in work zones to warn drivers of construction and maintenance hazards."
   },
   {
     "id": "NC-065",
@@ -776,8 +776,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 0,
+    "explanation": "Fresh air can help temporarily, but increasing speed is unsafe and not recommended."
   },
   {
     "id": "NC-066",
@@ -788,8 +788,8 @@
       "Follow the car in front you closely.",
       "Turn on your parking lights."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "Reducing speed is essential in fog. Bright lights cause glare and reduce visibility."
   },
   {
     "id": "NC-067",
@@ -800,8 +800,8 @@
       "Wait until all other cars have cleared the intersection and turn.",
       "Signal the driver in the car beside you that you intend to turn in front of him."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 0,
+    "explanation": "Backing up or forcing a turn is unsafe. Drivers should proceed to the next intersection."
   },
   {
     "id": "NC-068",
@@ -812,8 +812,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "A third DWI conviction within seven years can result in permanent license revocation and imprisonment."
   },
   {
     "id": "NC-069",
@@ -824,8 +824,8 @@
       "Drinks coffee while driving at night to stay alert.",
       "Keeps 2 car lengths between his/her car and the next car on the expressway."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "Frequent mirror checks help drivers remain aware of surrounding traffic conditions."
   },
   {
     "id": "NC-070",
@@ -836,8 +836,8 @@
       "Failing to yield the right-of-way.",
       "Speeding more than 75 mph in a 55mph zone."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "Passing a stopped school bus carries mandatory license suspension under North Carolina law."
   },
   {
     "id": "NC-071",
@@ -848,8 +848,8 @@
       "Apply the brake in short hard jabs.",
       "Pump the brake pedal lightly"
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3,
+    "explanation": "Pumping the brakes helps prevent wheel lock-up on icy roads without ABS."
   },
   {
     "id": "NC-072",
@@ -860,8 +860,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Drivers coming over hills or around curves may not expect very slow traffic, increasing collision risk."
   },
   {
     "id": "NC-073",
@@ -872,8 +872,8 @@
       "Both may combine and have unpredictable effects.",
       "There is no scientific evidence that it changes anything."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Alcohol and medication can interact unpredictably and significantly impair driving ability."
   },
   {
     "id": "NC-074",
@@ -884,8 +884,8 @@
       "Bring an antidote to cancel the effects of the drug.",
       "Do not worry; prescribed drugs never affect driving."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 0,
+    "explanation": "Drivers should consult their doctor about possible driving impairment before operating a vehicle."
   },
   {
     "id": "NC-075",
@@ -896,8 +896,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 0,
+    "explanation": "Regular rest stops help prevent fatigue; night driving is not recommended."
   },
   {
     "id": "NC-076",
@@ -908,8 +908,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "Diamond-shaped signs are warning signs, such as those used for animal crossings."
   },
   {
     "id": "NC-077",
@@ -920,8 +920,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Low beams reduce glare in cities and improve visibility in fog or mist."
   },
   {
     "id": "NC-078",
@@ -932,8 +932,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Both actions help alert other drivers that your vehicle is disabled."
   },
   {
     "id": "NC-079",
@@ -944,8 +944,8 @@
       "No one.",
       "Whoever reaches the intersection first."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 0,
+    "explanation": "Pedestrians always have the right-of-way at intersections, marked or unmarked, when crossing legally."
   },
   {
     "id": "NC-080",
@@ -956,8 +956,8 @@
       "No left turn.",
       "Slow down and proceed with caution."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3,
+    "explanation": "A flashing yellow signal warns drivers to slow down and proceed carefully."
   },
   {
     "id": "NC-081",
@@ -968,8 +968,8 @@
       "Assign the driver to the Driver Improvement Clinic.",
       "Revoke the driver's license for at least 12 months."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3,
+    "explanation": "Refusal of a lawful chemical test results in an automatic 12-month license revocation in North Carolina."
   },
   {
     "id": "NC-082",
@@ -980,8 +980,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3,
+    "explanation": "Drivers should slow before entering the curve and stay centered in their lane, not brake sharply mid-curve."
   },
   {
     "id": "NC-083",
@@ -992,8 +992,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "North Carolina sends warning letters at 4 points and may suspend licenses at 12 points within three years."
   },
   {
     "id": "NC-084",
@@ -1004,8 +1004,8 @@
       "Lanes going in the opposite direction of the bus.",
       "Turning lane only."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "Only traffic traveling in the same direction as the bus must stop when there is a center turning lane."
   },
   {
     "id": "NC-085",
@@ -1016,8 +1016,8 @@
       "Apply the emergency brake.",
       "Take your foot off the gas pedal gradually."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3,
+    "explanation": "Gradually easing off the accelerator helps maintain control and prevents skidding."
   },
   {
     "id": "NC-086",
@@ -1028,8 +1028,8 @@
       "Suspension system.",
       "Exhaust system."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3,
+    "explanation": "The exhaust system routes engine fumes safely away from the passenger compartment."
   },
   {
     "id": "NC-087",
@@ -1040,8 +1040,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Both statements reflect standard North Carolina speed limits unless otherwise posted."
   },
   {
     "id": "NC-088",
@@ -1052,8 +1052,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "North Carolina allows 65 mph on open highways and limits school activity buses to 35 mph."
   },
   {
     "id": "NC-089",
@@ -1064,8 +1064,8 @@
       "In the leg muscles.",
       "In the chest."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "Alcohol concentrates in the brain, impairing judgment, vision, and coordination."
   },
   {
     "id": "NC-090",
@@ -1076,8 +1076,8 @@
       "1.5 ounces of spirits (45ml).",
       "They all have the same amount; .6 of an ounce (18ml) of alcohol."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3,
+    "explanation": "Each of these drinks contains approximately the same amount of pure alcohol."
   },
   {
     "id": "NC-091",
@@ -1088,8 +1088,8 @@
       "A rear-end collision.",
       "A head-on collision."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Rear-end collisions are the most common accidents on interstate highways due to speed and traffic flow."
   },
   {
     "id": "NC-092",
@@ -1100,8 +1100,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 1,
+    "explanation": "Wearing or carrying white or reflective material makes pedestrians more visible at night."
   },
   {
     "id": "NC-093",
@@ -1112,8 +1112,8 @@
       "Light gusts of wind make the car difficult to control.",
       "There is a squeaking noise when you step on the brake pedal."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3,
+    "explanation": "Unusual noises when braking often indicate worn or malfunctioning brake components."
   },
   {
     "id": "NC-094",
@@ -1124,8 +1124,8 @@
       "Assign the driver to the Driver Improvement Clinic.",
       "Revoke the driver's license for at least 12 months."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3,
+    "explanation": "North Carolina law mandates license revocation for refusing a lawful chemical test."
   },
   {
     "id": "NC-095",
@@ -1136,8 +1136,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Both packed snow and newly paved roads can be slick and cause skidding."
   },
   {
     "id": "NC-096",
@@ -1148,8 +1148,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Both approval and reapplication with applicable fees are required for license restoration."
   },
   {
     "id": "NC-097",
@@ -1160,8 +1160,8 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 2,
+    "explanation": "Drivers should avoid staring into bright lights and may flash headlights briefly as a signal."
   },
   {
     "id": "NC-098",
@@ -1172,20 +1172,8 @@
       "To Car B and then Car A.",
       "To Car B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
-  },
-  {
-    "id": "NC-099",
-    "question": "The driver of a truck going downhill with a curve should do the following:",
-    "choices": [
-      "Use a lower gear.",
-      "Pump the brakes when reaching the curve.",
-      "Brake firmly and steadily going.",
-      "Speed up slightly on the curve to maintain control of the truck."
-    ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 3,
+    "explanation": "Vehicles going straight have the right-of-way over vehicles making left turns at uncontrolled intersections."
   },
   {
     "id": "NC-100",
@@ -1196,7 +1184,415 @@
       "Both A and B.",
       "Neither A nor B."
     ],
-    "correctAnswerIndex": 0
-    "explanation": ""
+    "correctAnswerIndex": 0,
+    "explanation": "Starting in a higher gear reduces wheel spin and improves traction on slippery surfaces."
+  },
+  {
+    "id": "NC-101",
+    "question": "When approaching a stopped emergency vehicle displaying flashing lights on a multi-lane highway, a driver must:",
+    "choices": [
+      "Slow down and move into the lane farthest from the vehicle if possible.",
+      "Stop completely until the emergency vehicle moves.",
+      "Maintain speed but proceed cautiously.",
+      "Sound the horn to alert the emergency worker."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "North Carolina law requires drivers to slow down and move over when approaching emergency vehicles with flashing lights."
+  },
+  {
+    "id": "NC-102",
+    "question": "A solid yellow line on your side of the center line means:",
+    "choices": [
+      "Passing is allowed at any time.",
+      "Passing is allowed only during daylight hours.",
+      "Passing is prohibited.",
+      "Passing is allowed only for motorcycles."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A solid yellow line indicates that passing is not permitted because it may be unsafe."
+  },
+  {
+    "id": "NC-103",
+    "question": "What should you do if your accelerator pedal sticks while driving?",
+    "choices": [
+      "Shift to neutral and apply steady braking.",
+      "Turn off the ignition immediately.",
+      "Pump the accelerator repeatedly.",
+      "Apply the emergency brake sharply."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Shifting into neutral and braking steadily allows the vehicle to slow safely without engine power."
+  },
+  {
+    "id": "NC-104",
+    "question": "When driving in fog, rain, or snow, you should use:",
+    "choices": [
+      "High-beam headlights.",
+      "Parking lights only.",
+      "Low-beam headlights.",
+      "Emergency flashers."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Low-beam headlights reduce glare and improve visibility in fog and other poor weather conditions."
+  },
+  {
+    "id": "NC-105",
+    "question": "At what blood alcohol concentration (BAC) is a driver age 21 or older considered legally impaired in North Carolina?",
+    "choices": [
+      "0.02%",
+      "0.04%",
+      "0.08%",
+      "0.10%"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A BAC of 0.08% or higher is illegal for drivers age 21 and over in North Carolina."
+  },
+  {
+    "id": "NC-106",
+    "question": "When two vehicles arrive at a four-way stop intersection at the same time, who has the right-of-way?",
+    "choices": [
+      "The vehicle on the left.",
+      "The vehicle on the right.",
+      "The larger vehicle.",
+      "The vehicle going straight."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "When vehicles arrive simultaneously, the driver on the left must yield to the driver on the right."
+  },
+  {
+    "id": "NC-107",
+    "question": "If your vehicle begins to skid, the first thing you should do is:",
+    "choices": [
+      "Brake hard immediately.",
+      "Turn the steering wheel sharply.",
+      "Take your foot off the accelerator.",
+      "Apply the emergency brake."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Releasing the accelerator helps regain traction and control during a skid."
+  },
+  {
+    "id": "NC-108",
+    "question": "A broken yellow line on your side of the road means:",
+    "choices": [
+      "Passing is not allowed.",
+      "Passing is allowed when safe.",
+      "You must yield to oncoming traffic.",
+      "The road is one-way."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A broken yellow line indicates passing is permitted when the way is clear."
+  },
+  {
+    "id": "NC-109",
+    "question": "What does a steady red arrow signal mean?",
+    "choices": [
+      "Stop, then proceed with caution.",
+      "Yield to oncoming traffic.",
+      "No turn is allowed in the direction of the arrow.",
+      "Turn permitted after stopping."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A steady red arrow means turning in the direction of the arrow is prohibited."
+  },
+  {
+    "id": "NC-110",
+    "question": "When parking downhill with a curb, you should turn your front wheels:",
+    "choices": [
+      "Toward the curb.",
+      "Away from the curb.",
+      "Straight ahead.",
+      "Either direction."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Turning wheels away from the curb prevents the vehicle from rolling into traffic if it moves."
+  },
+  {
+    "id": "NC-111",
+    "question": "What is the safest action when an emergency vehicle approaches with lights and siren on?",
+    "choices": [
+      "Speed up to get out of the way",
+      "Move to the right and stop",
+      "Continue driving normally",
+      "Stop in the middle of your lane"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "North Carolina law requires drivers to pull over to the right and stop until the emergency vehicle passes."
+  },
+  {
+    "id": "NC-112",
+    "question": "What is the main reason to keep a safe following distance?",
+    "choices": [
+      "It reduces fuel consumption",
+      "It allows more time to react to hazards",
+      "It discourages other drivers from passing",
+      "It helps your tires warm up"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A safe following distance increases reaction time and reduces rear-end collisions."
+  },
+  {
+    "id": "NC-113",
+    "question": "If your tires begin to lose traction during rain, what should you do first?",
+    "choices": [
+      "Press the accelerator to regain control",
+      "Brake hard to slow down quickly",
+      "Ease off the gas and steer straight",
+      "Turn sharply to correct your direction"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Hydroplaning is corrected by easing off the accelerator and keeping the wheel straight until traction returns."
+  },
+  {
+    "id": "NC-114",
+    "question": "When is it legal to use your horn?",
+    "choices": [
+      "To greet a friend as you pass their house",
+      "To warn others of a safety hazard",
+      "To express frustration at another driver",
+      "Whenever you approach an intersection"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The horn is a safety device used to warn others of danger, not for non-emergency communication."
+  },
+  {
+    "id": "NC-115",
+    "question": "What is the safest way to enter a curve?",
+    "choices": [
+      "Brake throughout the entire curve",
+      "Maintain the same speed you approached with",
+      "Slow down before entering, then gently accelerate",
+      "Speed up to reduce the chance of skidding"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Slowing before the curve provides stability, while gentle acceleration helps maintain traction through the turn."
+  },
+  {
+    "id": "NC-116",
+    "question": "What should you do if the vehicle ahead of you is driving unpredictably?",
+    "choices": [
+      "Move closer to observe their behavior",
+      "Back off and increase your following distance",
+      "Honk repeatedly to get their attention",
+      "Attempt to pass immediately"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Increasing distance gives you more time to avoid sudden movements from unsafe drivers."
+  },
+  {
+    "id": "NC-117",
+    "question": "When driving at night, when should you use your high-beam headlights?",
+    "choices": [
+      "On well-lit city streets",
+      "Whenever you want to see road signs more clearly",
+      "On open roads with no oncoming traffic",
+      "When you are tired and need to stay awake"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "High beams should only be used when no other drivers will be blinded by the glare."
+  },
+  {
+    "id": "NC-118",
+    "question": "What is a key sign that you may be drowsy while driving?",
+    "choices": [
+      "You are adjusting the radio frequently",
+      "You cannot remember the last few miles driven",
+      "You glance in your mirrors often",
+      "Your hands feel tight on the wheel"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Memory lapses are a major warning sign of fatigue and reduced alertness."
+  },
+  {
+    "id": "NC-119",
+    "question": "What is the safest action if your vehicle begins to skid?",
+    "choices": [
+      "Brake hard immediately",
+      "Steer in the direction you want the front of the car to go",
+      "Turn away from the direction of the skid",
+      "Accelerate to regain traction"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Steering gently in the direction you want to go aligns the vehicle and helps regain control."
+  },
+  {
+    "id": "NC-120",
+    "question": "What should you do when approaching a school bus with its red lights flashing?",
+    "choices": [
+      "Slow down and pass carefully",
+      "Stop, regardless of your direction of travel",
+      "Continue if no children are visible",
+      "Honk twice to alert the driver"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "In North Carolina, all traffic must stop for a bus with active red signals unless on a divided highway with a physical median."
+  },
+  {
+    "id": "NC-121",
+    "question": "When merging onto an interstate, what is the recommended procedure?",
+    "choices": [
+      "Stop at the end of the ramp and wait for a gap",
+      "Match the speed of traffic on the highway",
+      "Merge at a much lower speed to avoid conflict",
+      "Enter quickly without checking mirrors"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Matching speed allows for smoother merging and reduces the chance of collisions."
+  },
+  {
+    "id": "NC-122",
+    "question": "What is the safest way to handle a yellow traffic light?",
+    "choices": [
+      "Speed up to beat the red light",
+      "Stop if you can do so safely",
+      "Continue at normal speed regardless",
+      "Swerve around crossing traffic"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A yellow light warns that the light is changing; stopping safely is the proper response."
+  },
+  {
+    "id": "NC-123",
+    "question": "If you experience a tire blowout, what is your first action?",
+    "choices": [
+      "Brake hard to slow immediately",
+      "Grip the wheel firmly and slow down gradually",
+      "Accelerate to maintain stability",
+      "Turn sharply toward the shoulder"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Sudden braking can cause loss of control; gradual slowing helps stabilize the vehicle."
+  },
+  {
+    "id": "NC-124",
+    "question": "What should you do if you miss your highway exit?",
+    "choices": [
+      "Stop and reverse carefully",
+      "Make a U-turn in the median",
+      "Proceed to the next exit",
+      "Cut across the shoulder to exit"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Stopping or reversing on a highway is extremely dangerous; continue to the next exit safely."
+  },
+  {
+    "id": "NC-125",
+    "question": "Why is it important to signal well before turning?",
+    "choices": [
+      "It allows other drivers time to react",
+      "It reduces wear on your vehicle's brakes",
+      "It helps maintain good fuel economy",
+      "It keeps the ignition system cool"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Signaling early improves safety by giving others adequate warning."
+  },
+  {
+    "id": "NC-126",
+    "question": "How should you adjust your driving in heavy fog?",
+    "choices": [
+      "Use high beams for maximum visibility",
+      "Slow down and use low-beam headlights",
+      "Turn on hazard lights permanently",
+      "Follow the vehicle ahead closely"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Low beams reduce glare in fog and improve visibility; high beams worsen it."
+  },
+  {
+    "id": "NC-127",
+    "question": "What does a diamond-shaped traffic sign indicate?",
+    "choices": [
+      "Regulatory instruction",
+      "Warning of upcoming hazards",
+      "Recreational information",
+      "A mandatory stop"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Diamond signs universally indicate warnings about road conditions or hazards."
+  },
+  {
+    "id": "NC-128",
+    "question": "Why should you increase following distance at night?",
+    "choices": [
+      "Headlights reduce steering sensitivity",
+      "Depth perception decreases in the dark",
+      "Roads are smoother at night",
+      "Your vehicle handles differently"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Reduced visibility and depth perception require extra space to react safely."
+  },
+  {
+    "id": "NC-129",
+    "question": "What should you do when driving through a work zone?",
+    "choices": [
+      "Maintain normal speed unless workers are present",
+      "Slow down and be prepared for sudden stops",
+      "Sound your horn regularly",
+      "Pass other drivers whenever possible"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Work zones often have unpredictable traffic patterns and require slower speeds."
+  },
+  {
+    "id": "NC-130",
+    "question": "If your brakes fail while driving, what is your safest first step?",
+    "choices": [
+      "Shift to a lower gear",
+      "Turn off the engine immediately",
+      "Pull the parking brake sharply",
+      "Steer into oncoming traffic to stop"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Downshifting reduces speed naturally and provides better control than abrupt parking brake use."
+  },
+  {
+    "id": "NC-131",
+    "question": "When are roads most slippery during a rainstorm?",
+    "choices": [
+      "After several hours of rain",
+      "During the first few minutes of rainfall",
+      "Only during heavy downpours",
+      "Only after the rain stops"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The first rain loosens oils on the road surface, creating unusually slick conditions."
+  },
+  {
+    "id": "NC-132",
+    "question": "When must drivers yield to pedestrians?",
+    "choices": [
+      "Only at marked crosswalks",
+      "Only when traffic is stopped",
+      "At all crosswalks, marked or unmarked",
+      "Only at intersections with traffic signals"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Pedestrians have right-of-way at all crosswalks, whether painted or unmarked."
+  },
+  {
+    "id": "NC-133",
+    "question": "What should you do before changing lanes on a multi-lane road?",
+    "choices": [
+      "Rely only on your mirrors to check blind spots",
+      "Signal, check mirrors, and look over your shoulder",
+      "Speed up before signaling",
+      "Drift slowly between lanes until clear"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Proper lane changes require signaling and checking all blind spots before moving."
+  },
+  {
+    "id": "NC-134",
+    "question": "When driving on icy roads, what is the best way to stop safely?",
+    "choices": [
+      "Brake quickly and firmly",
+      "Pump the brakes gently if you do not have ABS",
+      "Turn sharply while braking",
+      "Shift into neutral and glide"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Without ABS, pumping prevents wheel lock. ABS-equipped vehicles should brake steadily."
   }
 ]

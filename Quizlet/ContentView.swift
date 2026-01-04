@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var quizManager = QuizManager()
+    @ObservedObject private var quizManager = QuizManager.shared
 
     var body: some View {
         if quizManager.showingHistory {
             HistoryView(quizManager: quizManager)
+        } else if quizManager.showingConfig {
+            QuizConfigView(quizManager: quizManager)
         } else if !quizManager.quizStarted {
             StartView(quizManager: quizManager)
         } else if quizManager.showingResults {

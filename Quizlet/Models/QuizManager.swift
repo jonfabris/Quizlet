@@ -8,6 +8,8 @@
 import Foundation
 
 class QuizManager: ObservableObject {
+    static let shared = QuizManager()
+
     @Published var questions: [Question] = []
     @Published var currentQuestionIndex: Int = 0
     @Published var score: Int = 0
@@ -16,6 +18,9 @@ class QuizManager: ObservableObject {
     @Published var quizStarted: Bool = false
     @Published var quizHistory: [QuizResult] = []
     @Published var showingHistory: Bool = false
+    @Published var showingConfig: Bool = false
+    @Published var errorMessage: String? = nil
+    @Published var totalQuestionCount: Int = 0
 
     private let defaults = UserDefaults.standard
     private let questionIDsKey = "savedQuestionIDs"
@@ -29,13 +34,11 @@ class QuizManager: ObservableObject {
     init() {
         loadAllQuestions()
         loadQuizHistory()
-        // Don't automatically restore - let user choose to resume or start new
     }
 
     private func loadAllQuestions() {
         guard let url = Bundle.main.url(forResource: "nc-drivers-test", withExtension: "json") else {
             print("Error: Could not find nc-drivers-test.json in bundle")
-            loadDefaultQuestions()
             return
         }
 
@@ -43,21 +46,10 @@ class QuizManager: ObservableObject {
             let data = try Data(contentsOf: url)
             let decoder = JSONDecoder()
             allQuestions = try decoder.decode([Question].self, from: data)
+            totalQuestionCount = allQuestions.count
         } catch {
             print("Error loading questions: \(error)")
-            loadDefaultQuestions()
         }
-    }
-
-    private func loadDefaultQuestions() {
-        allQuestions = [
-            Question(question: "What is the capital of France?",
-                    choices: ["London", "Berlin", "Paris", "Madrid"],
-                    correctAnswerIndex: 2),
-            Question(question: "Which planet is known as the Red Planet?",
-                    choices: ["Venus", "Mars", "Jupiter", "Saturn"],
-                    correctAnswerIndex: 1)
-        ]
     }
 
     private func restoreProgress() {
@@ -152,15 +144,26 @@ class QuizManager: ObservableObject {
         restoreProgress()
     }
 
-    func startQuiz() {
-        // Shuffle questions for random order
-        questions = allQuestions.shuffled()
+    func showQuizConfig() {
+        showingConfig = true
+    }
+
+    func startQuiz(withQuestionCount count: Int) {
+        // Shuffle all questions first, then take requested count
+        let shuffled = allQuestions.shuffled()
+        questions = Array(shuffled.prefix(count))
+
         currentQuestionIndex = 0
         score = 0
         selectedAnswerIndex = nil
         showingResults = false
+        showingConfig = false
         quizStarted = true
         saveProgress()
+    }
+
+    func cancelConfig() {
+        showingConfig = false
     }
 
     func selectAnswer(_ index: Int) {
@@ -185,7 +188,7 @@ class QuizManager: ObservableObject {
 
     func restartQuiz() {
         clearProgress()
-        startQuiz()
+        showQuizConfig()
     }
 
     func returnToStart() {

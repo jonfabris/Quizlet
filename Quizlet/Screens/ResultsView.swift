@@ -19,12 +19,10 @@ struct ResultsView: View {
         switch percentage {
         case 90...100:
             return "Excellent! You're a quiz master!"
-        case 70..<90:
-            return "Great job! Keep it up!"
-        case 50..<70:
-            return "Good effort! Practice makes perfect."
+        case 70..<80:
+            return "Great job! You passed!"
         default:
-            return "Keep practicing! You'll do better next time."
+            return "You did not pass. Keep practicing! You'll do better next time."
         }
     }
 
@@ -104,7 +102,7 @@ struct ResultsView: View {
 }
 
 #Preview {
-    let manager = QuizManager()
+    let manager = QuizManager.shared
     manager.score = 8
     manager.showingResults = true
     return ResultsView(quizManager: manager)

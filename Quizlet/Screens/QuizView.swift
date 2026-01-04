@@ -12,7 +12,7 @@ struct QuizView: View {
     @State private var showingQuitAlert = false
 
     var body: some View {
-        VStack(spacing: 30) {
+        VStack(spacing: 0) {
             if let currentQuestion = quizManager.currentQuestion {
                 // Header with quit button and question counter
                 HStack {
@@ -45,63 +45,65 @@ struct QuizView: View {
                     .font(.body)
                     .opacity(0)
                 }
-                .padding(.horizontal)
+                .padding()
 
-                Spacer()
+                // Scrollable content area
+                ScrollView {
+                    VStack(spacing: 30) {
+                        // Question text
+                        Text(currentQuestion.question)
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .multilineTextAlignment(.center)
+                            .padding()
 
-                // Question text
-                Text(currentQuestion.question)
-                    .font(.title2)
-                    .fontWeight(.semibold)
-                    .multilineTextAlignment(.center)
-                    .padding()
-
-                Spacer()
-
-                // Answer choices
-                VStack(spacing: 15) {
-                    ForEach(Array(currentQuestion.choices.enumerated()), id: \.offset) { index, choice in
-                        ChoiceButton(
-                            text: choice,
-                            index: index,
-                            isSelected: quizManager.selectedAnswerIndex == index,
-                            isCorrect: index == currentQuestion.correctAnswerIndex,
-                            showFeedback: quizManager.selectedAnswerIndex != nil
-                        ) {
-                            if quizManager.selectedAnswerIndex == nil {
-                                quizManager.selectAnswer(index)
+                        // Answer choices
+                        VStack(spacing: 15) {
+                            ForEach(Array(currentQuestion.choices.enumerated()), id: \.offset) { index, choice in
+                                ChoiceButton(
+                                    text: choice,
+                                    index: index,
+                                    isSelected: quizManager.selectedAnswerIndex == index,
+                                    isCorrect: index == currentQuestion.correctAnswerIndex,
+                                    showFeedback: quizManager.selectedAnswerIndex != nil
+                                ) {
+                                    if quizManager.selectedAnswerIndex == nil {
+                                        quizManager.selectAnswer(index)
+                                    }
+                                }
                             }
                         }
-                    }
-                }
-                .padding(.horizontal)
+                        .padding(.horizontal)
 
-                // Explanation (appears after answer is selected)
-                if quizManager.selectedAnswerIndex != nil, let explanation = currentQuestion.explanation {
-                    VStack(alignment: .leading, spacing: 10) {
-                        HStack {
-                            Image(systemName: "info.circle.fill")
-                                .foregroundColor(.blue)
-                            Text("Explanation")
-                                .font(.headline)
-                                .foregroundColor(.blue)
+                        // Explanation (appears after answer is selected)
+                        if quizManager.selectedAnswerIndex != nil, let explanation = currentQuestion.explanation {
+                            VStack(alignment: .leading, spacing: 10) {
+                                HStack {
+                                    Image(systemName: "info.circle.fill")
+                                        .foregroundColor(.blue)
+                                    Text("Explanation")
+                                        .font(.headline)
+                                        .foregroundColor(.blue)
+                                }
+                                Text(explanation)
+                                    .font(.body)
+                                    .foregroundColor(.secondary)
+                                    .fixedSize(horizontal: false, vertical: true)
+                            }
+                            .padding()
+                            .background(Color.blue.opacity(0.1))
+                            .cornerRadius(10)
+                            .padding(.horizontal)
+                            .transition(.move(edge: .bottom).combined(with: .opacity))
                         }
-                        Text(explanation)
-                            .font(.body)
-                            .foregroundColor(.secondary)
-                            .fixedSize(horizontal: false, vertical: true)
                     }
-                    .padding()
-                    .background(Color.blue.opacity(0.1))
-                    .cornerRadius(10)
-                    .padding(.horizontal)
-                    .transition(.move(edge: .bottom).combined(with: .opacity))
+                    .padding(.bottom, 20)
                 }
 
-                Spacer()
+                // Fixed Next button at bottom
+                VStack(spacing: 0) {
+                    Divider()
 
-                // Next button (appears after answer is selected)
-                if quizManager.selectedAnswerIndex != nil {
                     Button(action: {
                         quizManager.nextQuestion()
                     }) {
@@ -113,16 +115,17 @@ struct QuizView: View {
                             .background(Color.blue)
                             .cornerRadius(10)
                     }
-                    .padding(.horizontal)
-                    .transition(.move(edge: .bottom).combined(with: .opacity))
+                    .padding()
+                    .opacity(quizManager.selectedAnswerIndex != nil ? 1 : 0)
+                    .disabled(quizManager.selectedAnswerIndex == nil)
                 }
+                .background(Color(UIColor.systemBackground))
             } else {
                 Text("No questions available")
                     .font(.title)
                     .foregroundColor(.secondary)
             }
         }
-        .padding()
         .animation(.easeInOut, value: quizManager.selectedAnswerIndex)
         .alert("Quit Quiz?", isPresented: $showingQuitAlert) {
             Button("Cancel", role: .cancel) { }
@@ -190,5 +193,5 @@ struct ChoiceButton: View {
 }
 
 #Preview {
-    QuizView(quizManager: QuizManager())
+    QuizView(quizManager: QuizManager.shared)
 }
